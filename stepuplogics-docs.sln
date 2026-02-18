@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aws", "aws", "{E018A2F0-712D-E946-F173-BAD35C4AC283}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "azure", "azure", "{C35B3F86-D513-DC96-F441-B40E8BE042A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day-3-AWS-Storage", "Day-3-AWS-Storage", "{82E2D823-9EB5-3108-EBE2-94D7BFBFBCDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "file-upload", "file-upload", "{895E7CAB-A64C-21CF-3424-C66DE8918ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fileupload-dotnetcore-api", "aws\Day-3-AWS-Storage\file-upload\fileupload-dotnetcore-api\fileupload-dotnetcore-api.csproj", "{E93F62D5-4CEC-B70A-49E0-8EC4C3944803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day-3-Azure-Storage", "Day-3-Azure-Storage", "{C0B5DCFA-403E-ED15-81E3-C54D3D135B3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "file-upload", "file-upload", "{7EDD2A86-8642-08B6-EF2A-F5DA90A4F8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fileupload-dotnetcore-api", "azure\Day-3-Azure-Storage\file-upload\fileupload-dotnetcore-api\fileupload-dotnetcore-api.csproj", "{19ABBB76-7D99-E914-799F-EC65C9CB1F3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E93F62D5-4CEC-B70A-49E0-8EC4C3944803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E93F62D5-4CEC-B70A-49E0-8EC4C3944803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E93F62D5-4CEC-B70A-49E0-8EC4C3944803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E93F62D5-4CEC-B70A-49E0-8EC4C3944803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19ABBB76-7D99-E914-799F-EC65C9CB1F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19ABBB76-7D99-E914-799F-EC65C9CB1F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19ABBB76-7D99-E914-799F-EC65C9CB1F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19ABBB76-7D99-E914-799F-EC65C9CB1F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82E2D823-9EB5-3108-EBE2-94D7BFBFBCDF} = {E018A2F0-712D-E946-F173-BAD35C4AC283}
+		{895E7CAB-A64C-21CF-3424-C66DE8918ECF} = {82E2D823-9EB5-3108-EBE2-94D7BFBFBCDF}
+		{E93F62D5-4CEC-B70A-49E0-8EC4C3944803} = {895E7CAB-A64C-21CF-3424-C66DE8918ECF}
+		{C0B5DCFA-403E-ED15-81E3-C54D3D135B3F} = {C35B3F86-D513-DC96-F441-B40E8BE042A1}
+		{7EDD2A86-8642-08B6-EF2A-F5DA90A4F8C1} = {C0B5DCFA-403E-ED15-81E3-C54D3D135B3F}
+		{19ABBB76-7D99-E914-799F-EC65C9CB1F3F} = {7EDD2A86-8642-08B6-EF2A-F5DA90A4F8C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30FCF204-A3FA-4421-A107-6C2B7F8FC4F1}
+	EndGlobalSection
+EndGlobal
