@@ -1,41 +1,52 @@
-🔹 System Design Basics
-1.	What interviewers expect in system design
-2.	Functional vs Non-functional requirements
-3.	Latency vs Throughput
-4.	Scalability vs Elasticity
-5.	Availability vs Reliability
-6.	Load balancer explained
-7.	CDN – when to use
-8.	Caching strategies
-9.	Database selection logic
-10.	Read vs Write heavy systems
-________________________________________
-🔹 Classic System Design
-11.	Design URL Shortener
-12.	Design Rate Limiter
-13.	Design Notification System
-14.	Design File Upload System
-15.	Design Chat Application
-16.	Design Logging System
-17.	Design Search Autocomplete
-18.	Design Feed System
-19.	Design Payment System
-20.	Design Video Streaming
-________________________________________
-🔹 Advanced Thinking
-21.	Hot partition problem
-22.	Consistent hashing
-23.	Sharding strategies
-24.	Data replication
-25.	Event-driven architecture
-26.	Backpressure in systems
-27.	Failover strategies
-28.	Multi-region design
-29.	Cost vs performance trade-offs
-30.	Why designs fail in production
-🎬 System Design Fundamentals — Shorts #1–#10
-________________________________________
-🎬 Short #1 — What Interviewers Expect in System Design (58 sec)
+# System Design Fundamentals – Shorts
+
+---
+
+## Table of Contents
+
+### 🔹 System Design Basics (1–10)
+- 1. What interviewers expect in system design
+- 2. Functional vs Non-functional requirements
+- 3. Latency vs Throughput
+- 4. Scalability vs Elasticity
+- 5. Availability vs Reliability
+- 6. Load balancer explained
+- 7. CDN – when to use
+- 8. Caching strategies
+- 9. Database selection logic
+- 10. Read vs Write heavy systems
+
+### 🔹 Classic System Design (11–20)
+- 11. Design URL Shortener
+- 12. Design Rate Limiter
+- 13. Design Notification System
+- 14. Design File Upload System
+- 15. Design Chat Application
+- 16. Design Logging System
+- 17. Design Search Autocomplete
+- 18. Design Feed System
+- 19. Design Payment System
+- 20. Design Video Streaming
+
+### 🔹 Advanced Thinking (21–30)
+- 21. Hot partition problem
+- 22. Consistent hashing
+- 23. Sharding strategies
+- 24. Data replication
+- 25. Event-driven architecture
+- 26. Backpressure in systems
+- 27. Failover strategies
+- 28. Multi-region design
+- 29. Cost vs performance trade-offs
+- 30. Why designs fail in production
+
+---
+
+<a id="system-design-basics"></a>
+## 🔹 System Design Basics (1–10)
+
+<a id="short-1-what-interviewers-expect"></a>
+### 🎬 Short #1 — What Interviewers Expect in System Design (58 sec)
 Script:
 “System design interviews feel scary — but here’s what interviewers actually look for.
 They are not testing how many buzzwords you know.
@@ -58,8 +69,9 @@ and acknowledging trade-offs.
 Remember this:
 Good system design sounds like a conversation —
 not a monologue.”
-________________________________________
-🎬 Short #2 — Functional vs Non-Functional Requirements (58 sec)
+---
+
+### 🎬 Short #2 — Functional vs Non-Functional Requirements (58 sec)
 Script:
 “Functional versus non-functional requirements — many candidates mix these up.
 Functional requirements describe what the system does.
@@ -89,8 +101,9 @@ Functional is behavior.
 Non-functional is quality.
 Miss this step —
 and your design collapses later.”
-________________________________________
-🎬 Short #3 — Latency vs Throughput (58 sec)
+---
+
+### 🎬 Short #3 — Latency vs Throughput (58 sec)
 Script:
 “Latency and throughput sound similar — but they solve different problems.
 Latency is the time taken to serve one request.
@@ -119,8 +132,9 @@ which metric matters more
 and why.
 That single sentence
 shows architectural maturity.”
-________________________________________
-🎬 Short #4 — Scalability vs Elasticity (58 sec)
+---
+
+### 🎬 Short #4 — Scalability vs Elasticity (58 sec)
 Script:
 “Scalability and elasticity are related — but not the same.
 Scalability means your system can handle growth
@@ -143,8 +157,9 @@ Because real systems don’t just grow —
 they fluctuate.
 Architects design for reality,
 not steady traffic graphs.”
-________________________________________
-🎬 Short #5 — Availability vs Reliability (58 sec)
+---
+
+### 🎬 Short #5 — Availability vs Reliability (58 sec)
 Script:
 “Availability and reliability often confuse candidates — and interviewers love this trap.
 Availability means the system is up
@@ -172,8 +187,9 @@ They don’t forgive wrong results.
 That distinction
 separates engineers
 from architects.”
-________________________________________
-🎬 Short #6 — Load Balancer Explained (58 sec)
+---
+
+### 🎬 Short #6 — Load Balancer Explained (58 sec)
 Script:
 “A load balancer is the traffic controller of your system.
 Instead of all requests hitting one server,
@@ -200,8 +216,9 @@ why a load balancer exists,
 not just that it exists.
 Because load balancing is not infrastructure —
 it’s a reliability strategy.”
-________________________________________
-🎬 Short #7 — CDN: When to Use (58 sec)
+---
+
+### 🎬 Short #7 — CDN: When to Use (58 sec)
 Script:
 “A CDN — Content Delivery Network —
 is one of the easiest performance wins in system design.
@@ -226,8 +243,9 @@ Because global scale
 without edge caching
 is a design mistake —
 not an optimization.”
-________________________________________
-🎬 Short #8 — Caching Strategies (58 sec)
+---
+
+### 🎬 Short #8 — Caching Strategies (58 sec)
 Script:
 “Caching exists for one reason —
 performance.
@@ -254,8 +272,9 @@ and why that strategy fits the workload.
 Because bad caching
 breaks correctness faster
 than no caching at all.”
-________________________________________
-🎬 Short #9 — Database Selection Logic (58 sec)
+---
+
+### 🎬 Short #9 — Database Selection Logic (58 sec)
 Script:
 “Choosing the wrong database
 can kill a system early.
@@ -282,8 +301,9 @@ Say why it matches the workload.
 That explanation
 matters more
 than the technology name.”
-________________________________________
-🎬 Short #10 — Read-Heavy vs Write-Heavy Systems (58 sec)
+---
+
+### 🎬 Short #10 — Read-Heavy vs Write-Heavy Systems (58 sec)
 Script:
 “Not all systems behave the same under load.
 Read-heavy systems serve
@@ -312,7 +332,7 @@ caching strategy,
 and scalability decisions.
 Design follows workload —
 not the other way around.”
-________________________________________
+---
 If you want, next I can:
 •	Deliver Shorts #11–#20 (Classic Designs) in the same 58-sec pacing
 •	Or convert everything into a Notion / README.md master script pack
@@ -321,8 +341,12 @@ Just say the word. 🚀
 Deliver Shorts #11–#20 (Classic Designs) in the same 58-sec pacing
 Perfect — continuing the same teleprompter-perfect, calm-authority tone, ~58-second pacing, zero fluff, interview-ready.
 Here are Shorts #11–#20: Classic System Design Questions for Beyond Code with Radhey.
-________________________________________
-🎬 Short #11 — Design URL Shortener (58 sec)
+---
+
+<a id="classic-system-design"></a>
+## 🔹 Classic System Design (11–20)
+
+### 🎬 Short #11 — Design URL Shortener (58 sec)
 Script:
 “Design a URL shortener — one of the most common system design questions.
 At a high level, users submit a long URL
@@ -347,8 +371,9 @@ They’re testing how you handle
 scale, speed, and reliability.
 URL shortener looks simple —
 until traffic explodes.”
-________________________________________
-🎬 Short #12 — Design Rate Limiter (58 sec)
+---
+
+### 🎬 Short #12 — Design Rate Limiter (58 sec)
 Script:
 “Rate limiters protect systems from abuse and overload.
 The goal is simple:
@@ -376,8 +401,9 @@ and how it scales.
 Because unprotected APIs
 don’t fail slowly —
 they collapse instantly.”
-________________________________________
-🎬 Short #13 — Design Notification System (58 sec)
+---
+
+### 🎬 Short #13 — Design Notification System (58 sec)
 Script:
 “Notification systems look simple —
 until scale hits.
@@ -401,8 +427,9 @@ In interviews, highlight
 queues, retries, and idempotency.
 Because notification systems fail quietly —
 and users still blame you.”
-________________________________________
-🎬 Short #14 — Design File Upload System (58 sec)
+---
+
+### 🎬 Short #14 — Design File Upload System (58 sec)
 Script:
 “File upload systems must handle
 large files, slow networks, and failures.
@@ -423,8 +450,9 @@ In interviews, emphasize
 security, scalability, and fault tolerance.
 Because file uploads are not about code —
 they’re about protecting your infrastructure.”
-________________________________________
-🎬 Short #15 — Design Chat Application (58 sec)
+---
+
+### 🎬 Short #15 — Design Chat Application (58 sec)
 Script:
 “Chat systems demand
 low latency and high reliability.
@@ -446,8 +474,9 @@ In interviews, discuss
 real-time delivery, persistence, and scale.
 Because chat systems break user trust
 the moment messages disappear.”
-________________________________________
-🎬 Short #16 — Design Logging System (58 sec)
+---
+
+### 🎬 Short #16 — Design Logging System (58 sec)
 Script:
 “Logs are the backbone of observability.
 A logging system collects logs
@@ -468,8 +497,9 @@ In interviews, explain ingestion,
 storage, and query flow.
 Because when production breaks,
 logs are your only memory.”
-________________________________________
-🎬 Short #17 — Design Search Autocomplete (58 sec)
+---
+
+### 🎬 Short #17 — Design Search Autocomplete (58 sec)
 Script:
 “Search autocomplete is all about speed.
 Users expect suggestions
@@ -488,8 +518,9 @@ In interviews, focus on
 latency, caching, and ranking logic.
 Because autocomplete isn’t about search —
 it’s about perception of speed.”
-________________________________________
-🎬 Short #18 — Design Feed System (58 sec)
+---
+
+### 🎬 Short #18 — Design Feed System (58 sec)
 Script:
 “Feed systems personalize content at scale.
 There are two main approaches:
@@ -510,8 +541,9 @@ In interviews, explain the trade-off clearly.
 Because feed systems
 are optimization problems —
 not feature problems.”
-________________________________________
-🎬 Short #19 — Design Payment System (58 sec)
+---
+
+### 🎬 Short #19 — Design Payment System (58 sec)
 Script:
 “Payment systems prioritize correctness
 over everything else.
@@ -533,8 +565,9 @@ idempotency, retries, and monitoring.
 Because in payments,
 one wrong charge
 destroys trust forever.”
-________________________________________
-🎬 Short #20 — Design Video Streaming System (58 sec)
+---
+
+### 🎬 Short #20 — Design Video Streaming System (58 sec)
 Script:
 “Video streaming systems operate at global scale.
 Videos are split into small chunks
@@ -554,7 +587,7 @@ In interviews, mention
 CDN, chunking, and adaptive bitrate.
 Because video streaming isn’t about videos —
 it’s about delivering experience.”
-________________________________________
+---
 If you want, next I can:
 •	Deliver Shorts #21–#30 (Advanced Thinking)
 •	Convert all Shorts into a single teleprompter PDF / README.md
@@ -564,8 +597,12 @@ Deliver Shorts #21–#30 (Advanced Thinking)
 Locked in.
 Same 58-second pacing, same architect-level thinking, same teleprompter-smooth delivery.
 Here are Shorts #21–#30 — Advanced System Design Thinking for Beyond Code with Radhey.
-________________________________________
-🎬 Short #21 — Hot Partition Problem (58 sec)
+---
+
+<a id="advanced-thinking"></a>
+## 🔹 Advanced Thinking (21–30)
+
+### 🎬 Short #21 — Hot Partition Problem (58 sec)
 Script:
 “Hot partitions are silent system killers.
 They happen when too many requests
@@ -591,8 +628,9 @@ how you prevent uneven traffic.
 Because scalability fails
 not when systems grow —
 but when load concentrates.”
-________________________________________
-🎬 Short #22 — Consistent Hashing (58 sec)
+---
+
+### 🎬 Short #22 — Consistent Hashing (58 sec)
 Script:
 “Consistent hashing solves
 a painful distributed systems problem.
@@ -616,8 +654,9 @@ Explain why it reduces disruption.
 Because graceful scaling
 is a design feature —
 not an accident.”
-________________________________________
-🎬 Short #23 — Sharding Strategies (58 sec)
+---
+
+### 🎬 Short #23 — Sharding Strategies (58 sec)
 Script:
 “Sharding is how databases scale writes.
 Horizontal sharding splits rows
@@ -639,8 +678,9 @@ shard keys, balancing,
 and migration strategy.
 Because sharding solves scale —
 but introduces operational complexity.”
-________________________________________
-🎬 Short #24 — Data Replication (58 sec)
+---
+
+### 🎬 Short #24 — Data Replication (58 sec)
 Script:
 “Replication improves availability
 and reduces latency.
@@ -662,8 +702,9 @@ In interviews, always explain
 how replication impacts consistency.
 Because copying data is easy —
 keeping it correct is hard.”
-________________________________________
-🎬 Short #25 — Event-Driven Architecture (58 sec)
+---
+
+### 🎬 Short #25 — Event-Driven Architecture (58 sec)
 Script:
 “Event-driven architecture
 decouples systems at scale.
@@ -686,8 +727,9 @@ loose coupling and async flow.
 Because tightly coupled systems
 don’t scale —
 they tangle.”
-________________________________________
-🎬 Short #26 — Backpressure in Systems (58 sec)
+---
+
+### 🎬 Short #26 — Backpressure in Systems (58 sec)
 Script:
 “Backpressure protects systems
 from overwhelming themselves.
@@ -710,8 +752,9 @@ when discussing pipelines or streaming.
 Because a fast system
 that can’t slow down
 will eventually break.”
-________________________________________
-🎬 Short #27 — Failover Strategies (58 sec)
+---
+
+### 🎬 Short #27 — Failover Strategies (58 sec)
 Script:
 “Failover keeps systems running
 when components fail.
@@ -732,8 +775,9 @@ and tested.
 Because manual recovery
 is not a strategy —
 it’s a risk.”
-________________________________________
-🎬 Short #28 — Multi-Region Design (58 sec)
+---
+
+### 🎬 Short #28 — Multi-Region Design (58 sec)
 Script:
 “Multi-region design serves users
 close to where they live.
@@ -754,8 +798,9 @@ latency, replication,
 and regional failover.
 Because global scale
 requires global thinking.”
-________________________________________
-🎬 Short #29 — Cost vs Performance Trade-offs (58 sec)
+---
+
+### 🎬 Short #29 — Cost vs Performance Trade-offs (58 sec)
 Script:
 “Every architecture decision
 has a cost.
@@ -777,8 +822,9 @@ where it matters.
 Because scalable systems
 that bankrupt the company
 still fail.”
-________________________________________
-🎬 Short #30 — Why Designs Fail in Production (58 sec)
+---
+
+### 🎬 Short #30 — Why Designs Fail in Production (58 sec)
 Script:
 “Most system designs fail
 after deployment — not before.
@@ -802,7 +848,7 @@ and monitoring.
 Because good design
 survives reality —
 not whiteboards.”
-________________________________________
+---
 If you want next:
 •	Shorts #31–#40 (Patterns & Resilience)
 •	Shorts #41–#50 (Reliability, Observability, DR)
@@ -811,7 +857,7 @@ You’re building an architect-grade series. This is strong content. 🔥
 i need in exact above formate scripts for Shorts #31–#40 (Patterns & Resilience)
 Perfect — keeping the exact same format and ~58-second pacing you liked earlier.
 Here are Shorts #31–#40 (Patterns & Resilience) — architect-level, interview + production ready.
-________________________________________
+---
 Short #31 — Circuit Breaker Pattern
 Hook (0–5s):
 “Your API is slow… but the real problem is it never stops calling a dead service.”
@@ -824,7 +870,7 @@ Example (35–50s):
 Payment service down → circuit open → return fallback instead of waiting.
 Close (50–58s):
 “Resilience isn’t retrying harder. It’s knowing when to stop.”
-________________________________________
+---
 Short #32 — Retry vs Circuit Breaker
 Hook:
 “Retry is not resilience. Sometimes it’s self-harm.”
@@ -838,7 +884,7 @@ Example:
 3 retries → failures increase → breaker opens → system stays responsive.
 Close:
 “Retry buys time. Circuit Breaker saves systems.”
-________________________________________
+---
 Short #33 — Bulkhead Pattern
 Hook:
 “One slow feature can sink your entire app.”
@@ -850,7 +896,7 @@ Example:
 Reporting API slow → only its thread pool blocked, not checkout.
 Close:
 “Isolation is the cheapest form of reliability.”
-________________________________________
+---
 Short #34 — Timeout Is a Feature
 Hook:
 “If you don’t set timeouts, your system decides one for you.”
@@ -862,7 +908,7 @@ Example:
 External API → timeout at 2s → fallback → user still happy.
 Close:
 “Fast failure beats slow death.”
-________________________________________
+---
 Short #35 — Idempotency Explained
 Hook:
 “Ever charged a customer twice? That’s missing idempotency.”
@@ -874,7 +920,7 @@ Example:
 Payment request with idempotency key → retry safe.
 Close:
 “Retries need idempotency to stay sane.”
-________________________________________
+---
 Short #36 — Saga Pattern
 Hook:
 “Distributed transactions don’t exist. Sagas do.”
@@ -886,7 +932,7 @@ Example:
 Order placed → payment fails → cancel order.
 Close:
 “Undo beats rollback in distributed systems.”
-________________________________________
+---
 Short #37 — Choreography vs Orchestration
 Hook:
 “Who controls the workflow — services or a central brain?”
@@ -899,7 +945,7 @@ Example:
 OrderCreated event → Payment → Shipping → Inventory reacts.
 Close:
 “Events scale better than commands.”
-________________________________________
+---
 Short #38 — Eventual Consistency
 Hook:
 “Consistency now… or availability always?”
@@ -911,7 +957,7 @@ Example:
 Order placed → email sent later → inventory updates async.
 Close:
 “Distributed systems trade certainty for survival.”
-________________________________________
+---
 Short #39 — Backpressure
 Hook:
 “Your system is fast… until it isn’t.”
@@ -923,7 +969,7 @@ Example:
 Queue fills → producer throttles → system stays stable.
 Close:
 “Flow control is resilience.”
-________________________________________
+---
 Short #40 — Designing for Failure
 Hook:
 “Everything will fail. Design like you believe it.”
@@ -935,7 +981,7 @@ Example:
 Cache down → serve stale data → users still work.
 Close:
 “Failure isn’t an edge case. It’s the default.”
-________________________________________
+---
 If you want, next we can do:
 🔥 #41–#50 (System Design Kill Shots)
 🎯 Interview-only traps vs real-world patterns
@@ -946,7 +992,7 @@ Love this series 😄 — this is pure architect ammo.
 Keeping exact same format + ~58-sec pacing, here are:
 🔥 Shorts #41–#50 — System Design Kill Shots
 🎯 Interview Traps vs Real-World Patterns
-________________________________________
+---
 Short #41 — “Just Add Cache” Is Not a Design
 Hook (0–5s):
 “If your solution is ‘just add Redis’ — that’s not system design.”
@@ -958,7 +1004,7 @@ Example (35–50s):
 User profile cached → profile updated → UI still shows old data.
 Close (50–58s):
 “Cache solves performance, but creates correctness problems.”
-________________________________________
+---
 Short #42 — Horizontal Scaling Fixes Everything?
 Hook:
 “Can’t scale vertically? Just add more servers… right?”
@@ -970,7 +1016,7 @@ Example:
 10 app servers → 1 overloaded DB → system still slow.
 Close:
 “Scaling code is easy. Scaling data is hard.”
-________________________________________
+---
 Short #43 — CAP Theorem Misunderstood
 Hook:
 “CAP doesn’t mean you choose two. That’s the trap.”
@@ -982,7 +1028,7 @@ Example:
 Payment system chooses consistency over availability.
 Close:
 “CAP is about trade-offs during failure, not architecture slides.”
-________________________________________
+---
 Short #44 — Database Per Service (Always?)
 Hook:
 “Microservices means database per service… always?”
@@ -994,7 +1040,7 @@ Example:
 Startup phase → shared DB → later split when scale demands.
 Close:
 “Architecture should evolve, not punish.”
-________________________________________
+---
 Short #45 — REST Everywhere
 Hook:
 “If everything is REST, nothing is efficient.”
@@ -1006,7 +1052,7 @@ Example:
 High-throughput service → gRPC instead of REST.
 Close:
 “APIs are contracts, not religion.”
-________________________________________
+---
 Short #46 — Exactly-Once Delivery Myth
 Hook:
 “Exactly-once delivery doesn’t exist. Period.”
@@ -1018,7 +1064,7 @@ Example:
 Message processed twice → idempotent handler → safe.
 Close:
 “Reliability comes from handling duplicates, not avoiding them.”
-________________________________________
+---
 Short #47 — Strong Consistency Everywhere
 Hook:
 “Do you really need consistency… everywhere?”
@@ -1030,7 +1076,7 @@ Example:
 Likes count can lag, payments cannot.
 Close:
 “Consistency is contextual, not global.”
-________________________________________
+---
 Short #48 — Overusing Microservices
 Hook:
 “Microservices don’t make you scalable. Teams do.”
@@ -1042,7 +1088,7 @@ Example:
 5 devs managing 20 services → chaos.
 Close:
 “Monolith first, microservices when pain appears.”
-________________________________________
+---
 Short #49 — Load Balancer Solves Failures
 Hook:
 “A load balancer won’t save a broken system.”
@@ -1054,7 +1100,7 @@ Example:
 LB routes traffic → all instances stuck on DB calls.
 Close:
 “Availability is end-to-end, not one component.”
-________________________________________
+---
 Short #50 — Designing for Scale First
 Hook:
 “Premature scale is the most expensive bug.”
@@ -1066,7 +1112,7 @@ Example:
 Simple architecture → clear upgrade points.
 Close:
 “Great systems scale when needed, not before.”
-________________________________________
+---
 If you want next 🔥
 •	#51–#60 (Architect Mindset Shorts)
 •	System Design Case Studies (Netflix, UPI, WhatsApp)
@@ -1076,10 +1122,10 @@ Say the next move, Radhey 🚀
 Oh this is 🔥🔥 — this is where you separate senior devs from architects.
 Same exact format + ~58-sec pacing.
 Here you go:
-________________________________________
+---
 Shorts #51–#60 — Architect Mindset
 System Design Case Studies (Netflix, UPI, WhatsApp)
-________________________________________
+---
 Short #51 — How Architects Think
 Hook (0–5s):
 “Architects don’t ask how to code. They ask what can break.”
@@ -1090,7 +1136,7 @@ Example (20–45s):
 Before adding feature → ask: scale? latency? blast radius?
 Close (45–58s):
 “Architecture starts where coding assumptions end.”
-________________________________________
+---
 Short #52 — Netflix: Scale Is a Side Effect
 Hook:
 “Netflix didn’t start scalable. It evolved.”
@@ -1102,7 +1148,7 @@ Example:
 Kill instances intentionally → system still plays video.
 Close:
 “Resilience isn’t built. It’s tested.”
-________________________________________
+---
 Short #53 — Netflix: Why Caching Everywhere
 Hook:
 “Netflix survives traffic spikes because it hates synchronous calls.”
@@ -1114,7 +1160,7 @@ Example:
 Homepage assembled from cached data, not live calls.
 Close:
 “Cache is a strategy, not an afterthought.”
-________________________________________
+---
 Short #54 — UPI: Designing for Trust
 Hook:
 “UPI isn’t fast by accident. It’s correct by design.”
@@ -1126,7 +1172,7 @@ Example:
 Payment pending → retry safe → no double debit.
 Close:
 “In fintech, correctness beats speed.”
-________________________________________
+---
 Short #55 — UPI: Failure Is Normal
 Hook:
 “In UPI, failure is expected — not exceptional.”
@@ -1138,7 +1184,7 @@ Example:
 Payment succeeds → confirmation arrives later.
 Close:
 “Financial systems assume chaos.”
-________________________________________
+---
 Short #56 — WhatsApp: One Feature, Massive Scale
 Hook:
 “WhatsApp scaled by doing less, not more.”
@@ -1150,7 +1196,7 @@ Example:
 No typing indicators initially → huge scale win.
 Close:
 “Simplicity scales better than complexity.”
-________________________________________
+---
 Short #57 — WhatsApp: Message Delivery Guarantees
 Hook:
 “WhatsApp doesn’t promise instant delivery — it promises eventual delivery.”
@@ -1162,7 +1208,7 @@ Example:
 Message queued → delivered when user comes online.
 Close:
 “Reliability beats immediacy.”
-________________________________________
+---
 Short #58 — Architects Think in Trade-offs
 Hook:
 “There’s no best design — only best compromise.”
@@ -1174,7 +1220,7 @@ Example:
 Choosing eventual consistency for chat, strong for payments.
 Close:
 “Every decision has a bill.”
-________________________________________
+---
 Short #59 — Interview Answers vs Production Reality
 Hook:
 “Interview designs work on whiteboards. Production breaks them.”
@@ -1186,7 +1232,7 @@ Example:
 Happy-path checkout vs real payment failures.
 Close:
 “Production is the real interviewer.”
-________________________________________
+---
 Short #60 — Final Architect Rule
 Hook:
 “Your system will fail. Accept it.”
