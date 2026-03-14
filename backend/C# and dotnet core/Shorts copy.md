@@ -1,19 +1,4 @@
 # C# & .NET Core – Shorts
-
----
-
-## Table of Contents
-
-- ### 🎬 Short #1 — What happens when you run a C# program?
-- Short #2 — What is CLR?
-- Short #3 — What is IL Code?
-- Short #4 — What is JIT Compilation?
-- (See document for full list)
-
----
-
-## 🟢 .NET RUNTIME & INTERNALS (6 Minutes)
-👉 Start with “How C# actually runs” — hooks the audience
 ### 🎬 Short #1 — What happens when you run a C# program?
 0–5s (Hook)
 “Ever wondered what really happens when you run a C# program?”
@@ -112,8 +97,7 @@ can be used by another.”
 “C# library consumed by VB or F#.
 Takeaway: CTS + CLS = true multi-language platform.”
 ---
-2️⃣ MEMORY & TYPE SYSTEM (FOUNDATION) (7 Minutes)
-👉 🎬 Short #6 — Stack vs Heap (Real Execution Difference)
+### 🎬 Short #6 — Stack vs Heap (Real Execution Difference)
 0–5s (Hook)
 “Same code… but why does memory behave differently?”
 5–20s (Definition)
@@ -256,8 +240,8 @@ Use volatile, lock, or Interlocked.”
 “Multi-core race conditions.
 Takeaway: Memory model bugs are silent killers.”
 ---
-3️⃣ OBJECT-ORIENTED PROGRAMMING (CORE) (9 Minutes)
-👉 🎬 Short #13 — Why OOP Exists (Real Problem It Solves)
+
+### 🎬 Short #13 — Why OOP Exists (Real Problem It Solves)
 0–5s (Hook)
 “Why was OOP even invented?”
 5–20s (Definition)
@@ -415,8 +399,7 @@ Polymorphism is lost.”
 “Hard-to-find bugs.
 Takeaway: Shadowing is rarely the right choice.”
 ---
-4️⃣ CONSTRUCTORS & KEYWORDS (5 Minutes)
-👉 🎬 Short #22 — What is a Constructor and Why It Exists
+### 🎬 Short #22 — What is a Constructor and Why It Exists
 0–5s (Hook)
 “How does an object start its life in C#?”
 5–20s (Definition)
@@ -529,8 +512,7 @@ Can cause memory leaks if misused.”
 “Caching, configuration, constants.
 Takeaway: Static = powerful but dangerous.”
 ---
-5️⃣ INTERFACES & ADVANCED OOP (6 Minutes)
-👉 🎬 Short #27 — Abstract Class vs Interface (Real Decision Rule)
+### 🎬 Short #27 — Abstract Class vs Interface (Real Decision Rule)
 0–5s (Hook)
 “Abstract class or interface — how do you actually decide?”
 5–20s (Definition)
@@ -645,8 +627,8 @@ Interfaces enable substitution.”
 “Extensible systems.
 Takeaway: Prefer interface-driven design.”
 ---
-6️⃣ LINQ + EF CORE (6 Minutes)
-👉 Short #33 — What is LINQ and why it’s powerful
+
+### Short #33 — What is LINQ and why it’s powerful
 Hook:
 “LINQ is not just syntax sugar — it changes how you think about data.”
 Dialogue:
@@ -657,7 +639,7 @@ Dialogue:
 Takeaway:
 “LINQ = readable, composable, and provider-agnostic querying.”
 ---
-Short #34 — Deferred vs Immediate Execution
+### Short #34 — Deferred vs Immediate Execution
 Hook:
 “This one LINQ concept explains 50% of performance bugs.”
 Dialogue:
@@ -668,7 +650,7 @@ Dialogue:
 Takeaway:
 “LINQ doesn’t execute when written — it executes when consumed.”
 ---
-Short #35 — Select vs SelectMany (Flattening explained)
+### Short #35 — Select vs SelectMany (Flattening explained)
 Hook:
 “If Select works… why does SelectMany even exist?”
 Dialogue:
@@ -682,7 +664,7 @@ SelectMany → List<T>
 Takeaway:
 “Select maps. SelectMany flattens.”
 ---
-Short #36 — IEnumerable vs IQueryable (Huge interview topic)
+### Short #36 — IEnumerable vs IQueryable (Huge interview topic)
 Hook:
 “Same LINQ… totally different execution!”
 Dialogue:
@@ -695,7 +677,7 @@ Calling ToList() too early = database filtering lost.
 Takeaway:
 “IEnumerable = memory, IQueryable = database.”
 ---
-Short #37 — How LINQ executes in EF Core
+### Short #37 — How LINQ executes in EF Core
 Hook:
 “LINQ in EF Core is not C# execution — it’s SQL generation.”
 Dialogue:
@@ -708,7 +690,7 @@ Filter before ToList().
 Takeaway:
 “EF Core executes LINQ in DB, not in your app.”
 ---
-Short #38 — Common LINQ performance mistakes
+### Short #38 — Common LINQ performance mistakes
 Hook:
 “LINQ is elegant — until it kills performance.”
 Dialogue:
@@ -722,8 +704,7 @@ Dialogue:
 Takeaway:
 “LINQ is powerful — but only when used deliberately.”
 ---
-7️⃣ GENERICS & TYPE SAFETY (4 Minutes)
-👉 Short #39 — Why Generics exist (Before vs After)
+###  Short #39 — Why Generics exist (Before vs After)
 Hook:
 “Generics didn’t make C# fancy — they made it safe.”
 Dialogue:
@@ -735,7 +716,7 @@ Dialogue:
 Takeaway:
 “Generics exist to give flexibility without losing type safety.”
 ---
-Short #40 — Generics vs Object — performance difference
+### Short #40 — Generics vs Object — performance difference
 Hook:
 “This is where generics actually save CPU.”
 Dialogue:
@@ -747,7 +728,7 @@ Dialogue:
 Takeaway:
 “Generics improve both safety and performance.”
 ---
-Short #41 — Generic Constraints — why compiler needs rules
+### Short #41 — Generic Constraints — why compiler needs rules
 Hook:
 “Why can’t generics accept any type?”
 Dialogue:
@@ -759,7 +740,7 @@ Dialogue:
 Takeaway:
 “Constraints give the compiler confidence.”
 ---
-Short #42 — Covariance & Contravariance (in / out simplified)
+### Short #42 — Covariance & Contravariance (in / out simplified)
 Hook:
 “This sounds complex — but it’s just direction of flow.”
 Dialogue:
@@ -774,8 +755,7 @@ in → write
 Takeaway:
 “Variance is about safe type substitution.”  
 ---
-8️⃣ THREADING & ASYNC (ADVANCED) (8 Minutes)
-👉 Short #43 — Process vs Thread
+### Short #43 — Process vs Thread
 Hook:
 “Thread is not a lightweight process — that’s a myth.”
 Dialogue:
@@ -788,7 +768,7 @@ Dialogue:
 Takeaway:
 “Threads share memory, processes don’t.”
 ---
-Short #44 — Thread vs Task — why Task is preferred
+### Short #44 — Thread vs Task — why Task is preferred
 Hook:
 “Tasks didn’t replace threads — they abstracted them.”
 Dialogue:
@@ -800,7 +780,7 @@ Dialogue:
 Takeaway:
 “Use Tasks for work — not Threads.”
 ---
-Short #45 — What is Thread Pool and why it matters
+### Short #45 — What is Thread Pool and why it matters
 Hook:
 “Creating threads is expensive.”
 Dialogue:
@@ -812,7 +792,7 @@ Dialogue:
 Takeaway:
 “Thread Pool is the backbone of scalability.”
 ---
-Short #46 — Async/Await is NOT multithreading
+### Short #46 — Async/Await is NOT multithreading
 Hook:
 “This misunderstanding causes bad designs.”
 Dialogue:
@@ -824,7 +804,7 @@ Dialogue:
 Takeaway:
 “Async is about waiting smarter.”
 ---
-Short #47 — Async vs Parallel — CPU vs I/O bound
+### Short #47 — Async vs Parallel — CPU vs I/O bound
 Hook:
 “Choose the wrong one — kill performance.”
 Dialogue:
@@ -836,7 +816,7 @@ Dialogue:
 Takeaway:
 “Async for I/O, Parallel for CPU.”
 ---
-Short #48 — Deadlock — .Wait() & .Result() trap
+### Short #48 — Deadlock — .Wait() & .Result() trap
 Hook:
 “App freezes — no exception — welcome to deadlock.”
 Dialogue:
@@ -848,7 +828,7 @@ Dialogue:
 Takeaway:
 “Blocking async code is dangerous.”
 ---
-Short #49 — Lock vs Monitor
+### Short #49 — Lock vs Monitor
 Hook:
 “Lock is not magic.”
 Dialogue:
@@ -860,7 +840,7 @@ Dialogue:
 Takeaway:
 “Lock = safer Monitor.”
 ---
-Short #50 — Semaphore vs Mutex vs SemaphoreSlim
+### Short #50 — Semaphore vs Mutex vs SemaphoreSlim
 Hook:
 “These solve different concurrency problems.”
 Dialogue:
@@ -872,8 +852,7 @@ Dialogue:
 Takeaway:
 “Pick sync primitive based on scope.”
 ---
-9️⃣ MEMORY MANAGEMENT (4 Minutes)
-👉 Short #51 — How Garbage Collector actually works
+###  Short #51 — How Garbage Collector actually works
 Hook:
 “GC doesn’t run when memory is full — that’s a myth.”
 Dialogue:
@@ -885,7 +864,7 @@ Dialogue:
 Takeaway:
 “GC cleans unreachable objects, not unused variables.”
 ---
-Short #52 — GC Generations (Gen0, Gen1, Gen2)
+### Short #52 — GC Generations (Gen0, Gen1, Gen2)
 Hook:
 “Most objects die young — GC is optimized for that.”
 Dialogue:
@@ -897,7 +876,7 @@ Dialogue:
 Takeaway:
 “Long-lived objects cost more to clean.”
 ---
-Short #53 — Large Object Heap (LOH) — silent issue
+### Short #53 — Large Object Heap (LOH) — silent issue
 Hook:
 “Big objects don’t behave like small ones.”
 Dialogue:
@@ -909,7 +888,7 @@ Dialogue:
 Takeaway:
 “LOH issues don’t throw exceptions — they slow apps.”
 ---
-Short #54 — Memory Leaks in C# (Yes, they exist)
+### Short #54 — Memory Leaks in C# (Yes, they exist)
 Hook:
 “GC doesn’t prevent all memory leaks.”
 Dialogue:
@@ -921,7 +900,7 @@ Dialogue:
 Takeaway:
 “Reachable ≠ needed.”
 ---
-Short #55 — IDisposable & Dispose Pattern — when GC is not enough
+### Short #55 — IDisposable & Dispose Pattern — when GC is not enough
 Hook:
 “GC handles memory — not resources.”
 Dialogue:
@@ -939,7 +918,7 @@ If someone says
 That’s a junior-level answer.
 
 🟢 STEP 1: Application Startup & Hosting (Foundation)
-🎯 Short #1 — What is Kestrel?
+###  Short #1 — What is Kestrel?
 0–5s (Hook)
 “Ever wondered who actually handles HTTP requests in ASP.NET Core? … Well, meet Kestrel!”
 5–20s (Definition)
@@ -957,7 +936,7 @@ Here, CreateBuilder sets up Kestrel automatically, MapGet maps the root route, a
 Even in production, behind IIS or Nginx, Kestrel is the one actually executing your app logic.
 Takeaway: Kestrel = the heart of ASP.NET Core apps.”
 ---
-🎯 Short #2 — Kestrel vs IIS
+###  Short #2 — Kestrel vs IIS
 0–5s (Hook)
 “Does ASP.NET Core need IIS? Short answer — no!”
 5–20s (Definition)
@@ -976,7 +955,7 @@ See? Kestrel listens on port 5000, IIS just forwards requests.”
 Kestrel does the heavy lifting of processing HTTP requests fast.
 Takeaway: IIS protects… Kestrel executes.”
 ---
-🎯 Short #3 — appsettings.json & IConfiguration
+### Short #3 — appsettings.json & IConfiguration
 0–5s (Hook)
 “Hardcoding values directly in code? Big mistake!”
 5–20s (Definition)
@@ -994,7 +973,7 @@ Change the config, and your code doesn’t need a single edit.”
 “Dev, QA, Prod — just swap configs.
 Takeaway: Configuration = flexible and external.”
 ---
-🎯 Short #4 — What is IConfiguration?
+### Short #4 — What is IConfiguration?
 0–5s (Hook)
 “How does .NET read configs from everywhere seamlessly?”
 5–20s (Definition)
@@ -1015,7 +994,7 @@ Overrides happen automatically.”
 Same code, different sources.
 Takeaway: IConfiguration = one interface, many sources.”
 ---
-🎯 Short #5 — Options Pattern
+### Short #5 — Options Pattern
 0–5s (Hook)
 “Accessing configuration with strings everywhere? That’s risky!”
 5–20s (Definition)
@@ -1067,7 +1046,7 @@ No new EmailService() anywhere — the framework handles it.”
 “Perfect for injecting DB contexts, API clients, or business services.
 Takeaway: DI = clean, testable, maintainable code.”
 ---
-🎯 Short #2 — Service Lifetimes (Intro)
+###  Short #6 — Service Lifetimes (Intro)
 0–5s (Hook)
 “Did you know not all services in ASP.NET Core behave the same way?”
 5–20s (Definition)
@@ -1088,7 +1067,7 @@ Choosing the wrong lifetime can cause bugs.”
 “DB contexts are usually Scoped, caching services can be Singleton.
 Takeaway: Understand lifetimes — it prevents subtle runtime issues.”
 ---
-🎯 Short #3 — Service Lifetimes Deep Dive
+### Short #7 — Service Lifetimes Deep Dive
 0–5s (Hook)
 “Lifetime mismatch can silently break your app!”
 5–20s (Definition)
@@ -1105,7 +1084,7 @@ because a Singleton cannot hold onto a Scoped service.”
 “Always match lifetimes carefully to avoid memory leaks or data inconsistencies.
 Takeaway: Lifetime mismatch = silent bugs.”
 ---
-🎯 Short #4 — What is Request Scope?
+### Short #8 — What is Request Scope?
 0–5s (Hook)
 “What does Scoped really mean in ASP.NET Core?”
 5–20s (Definition)
@@ -1130,7 +1109,7 @@ Next request? Brand new GUID.”
 “Useful for DB contexts, logging per request, or tracking request-specific data.
 Takeaway: Scoped = one instance per HTTP request.”
 ---
-🎯 Short #5 — Transient vs Scoped vs Singleton (Interview Script)
+### Short #9 — Transient vs Scoped vs Singleton (Interview Script)
 0–5s (Hook)
 “Interview time! Can you explain service lifetimes in 30 seconds?”
 5–20s (Definition)
@@ -1149,7 +1128,7 @@ Dialogue / Explanation:
 “Example: DBContext = Scoped, Logger = Singleton, helper classes = Transient.
 Takeaway: Pick lifetimes wisely — it’s a performance & correctness decision.”
 ---
-🎯 Short #6 — Service Lifetime Real Example
+### Short #10 — Service Lifetime Real Example
 0–5s (Hook)
 “Let’s see service lifetimes in action!”
 5–20s (Definition)
@@ -1176,7 +1155,7 @@ Takeaway: Lifetimes are not just theory — they affect your app behavior.”
 ---
 🟢 STEP 3: Request Enters the System (Pipeline Starts)
 Client hits API / browser request
-🎯 Short #1 — .NET Request Lifecycle
+###  Short #11 — .NET Request Lifecycle
 0–5s (Hook)
 “Ever wondered what happens when you hit an ASP.NET Core API?”
 5–20s (Definition)
@@ -1203,7 +1182,7 @@ Finally, Run() ensures the response goes back.”
 “Every request you make in your app goes through this flow.
 Takeaway: Understanding the lifecycle is key to building efficient apps.”
 ---
-🎯 Short #2 — Pipeline Pattern in .NET
+###  Short #12 — Pipeline Pattern in .NET
 0–5s (Hook)
 “Want to process requests step by step efficiently?”
 5–20s (Definition)
@@ -1231,7 +1210,7 @@ Modular, composable, and easy to maintain.”
 “Pipeline pattern is perfect for logging, auth, caching, or request transformations.
 Takeaway: Think modular steps, not monolithic code.”
 ---
-🎯 Short #3 — What is Middleware?
+###  Short #13 — What is Middleware?
 0–5s (Hook)
 “What’s this thing called Middleware in ASP.NET Core?”
 5–20s (Definition)
@@ -1251,7 +1230,7 @@ Order matters because requests flow in sequence.”
 “Use middleware for logging, auth, exception handling, or compression.
 Takeaway: Every request touches middleware — it’s your app’s gatekeeper.”
 ---
-🎯 Short #4 — Middleware Explained
+###  Short #14 — Middleware Explained
 0–5s (Hook)
 “Why does the order of middleware matter?”
 5–20s (Definition)
@@ -2088,4 +2067,3 @@ No controller or endpoint needed.”
 40–55s (Real-time use case & Takeaway)
 “Queue consumers, cron jobs, Kafka listeners.
 Takeaway: Hosted Services = background workers for APIs.”
-
