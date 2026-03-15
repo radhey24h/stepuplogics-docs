@@ -401,13 +401,7 @@ Azure provides a wide range of services that users can integrate into their appl
 
 **Example**: Services in Azure are like tools in a toolbox. Just as a carpenter uses different tools to build a house, developers use Azure services to build and maintain their digital applications efficiently.
 
----
 
-### Azure Resource Manager (ARM)
-- **Definition**: Management layer for deploying and managing Azure resources.
-- **Benefits**: Simplifies resource deployment, ensures consistent management.
-- **Drawbacks**: Learning curve for complex deployments.
----
 
 ## There are multiple ways to connect with Azure:
 1. **Azure portal**: The web-based interface provided by Azure for managing and interacting with your resources.
@@ -415,6 +409,14 @@ Azure provides a wide range of services that users can integrate into their appl
 3. **Azure CLI**: A cross-platform command-line tool that provides a command-line interface for managing Azure resources.
 4. **Azure ARM template**: Azure Resource Manager templates allow you to define and deploy your infrastructure as code.
 5. **Azure SDKs**: Software development kits (SDKs) are available for various programming languages, providing libraries and tools to interact with Azure services programmatically.
+
+---
+
+### Azure Resource Manager (ARM)
+- **Definition**: Management layer for deploying and managing Azure resources.
+- **Benefits**: Simplifies resource deployment, ensures consistent management.
+- **Drawbacks**: Learning curve for complex deployments.
+---
 
 ## Additional Resources
 - [AWS Cloud Documentation](https://aws.amazon.com/documentation/)
